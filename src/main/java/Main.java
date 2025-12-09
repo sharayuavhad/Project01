@@ -1,17 +1,8 @@
-class User{
-    String name;
-    int id;
-    String surname;
-    public User(String name, int id, String surname) {
-        this.name = name;
-        this.id = id;
-        this.surname = surname;
-    }
-}
+
 
 public class Main {
     public static void main(String[] args) {
-        User obj1 = new User("Sharayu",59,"Avhad");
+        User obj1 = new User("Sharayu",60,"avhad");
         System.out.println("Hi SharuBai");
         System.out.println(obj1);
         System.out.println(obj1.name);
